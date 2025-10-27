@@ -24,7 +24,7 @@ spec:
             - name: PORT
               value: "3004"
             - name: MONGO_URI
-              value: "mongodb+srv://anjidipzimx:qwer%401234@mycluster.bgekn.mongodb.net/?retryWrites=true&w=majority"
+              value: MONGODB_URL
             - name: JWT_SECRET
               value: kasundi  # Change to a secure value in production
             - name: JWT_EXPIRES_IN
@@ -42,3 +42,4 @@ spec:
     - port: 3004
       targetPort: 3004
       nodePort: 30003
+
