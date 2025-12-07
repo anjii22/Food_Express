@@ -24,7 +24,7 @@ spec:
             - name: PORT
               value: "3003"
             - name: MONGO_URI
-              value: 
+              value: //mongo URL
             - name: JWT_SECRET
               value: kasundi
             - name: JWT_EXPIRES_IN
@@ -46,3 +46,4 @@ spec:
       targetPort: 3002
 
       nodePort: 30001
+
