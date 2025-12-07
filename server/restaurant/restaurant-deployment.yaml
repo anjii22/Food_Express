@@ -24,7 +24,7 @@ spec:
             - name: PORT
               value: "3003"
             - name: MONGO_URI
-              value: mongodb+srv://kasundi2002:kasundi@forum.0prmr.mongodb.net/DS?retryWrites=true&w=majority&appName=Forum
+              value: 
             - name: JWT_SECRET
               value: kasundi
             - name: JWT_EXPIRES_IN
@@ -44,4 +44,5 @@ spec:
   ports:
     - port: 3002
       targetPort: 3002
+
       nodePort: 30001
